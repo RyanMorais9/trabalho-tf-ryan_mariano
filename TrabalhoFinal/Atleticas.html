@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atleticas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="imagens ryan/RUFFS-removebg-preview.png" />
+    <style>
+        .link-hover:hover,
+        a.nav-link:hover {
+            color: #dc3545 !important;
+        }
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #212529;
+            color: #fff !important;
+            border-color: #000 #000 #000;
+        }
+
+        .link-hover {
+            color: white;
+            text-decoration: none;
+            transition: color 0.4s;
+        }
+
+        .link-hover:hover {
+            color: #dc3545;
+        }
+
+        div:target {
+            background-color: #212529;
+            border: 4px solid #dc3545;
+            border-radius: 10px;
+            padding: 10px;
+            color: #fff;
+        }
+
+        .nav-link,
+        .link-dark,
+        a.nav-link,
+        a.link-dark {
+            color: white !important;
+        }
+
+        h1, h2, h3, h4, h5, h6, p, span {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link link-dark" href="index.html">Inicial</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active link-dark" href="Atleticas.html">Atleticas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-dark" href="#">Conquistas</a>
+            </li>
+        </ul>
+
+        <nav class="navbar navbar-dark bg-dark px-3 mb-3 justify-content-between">
+            <span class="navbar-brand mb-0 h1">ATLÉTICAS</span>
+
+            <a class="navbar-brand mx-auto" href="#">
+                <img src="imagens ryan/RUFFS-removebg-preview.png" width="50" height="50" alt="ruffs" />
+            </a>
+
+            <div class="dropstart">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    ATLETICAS
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#CC">CC</a></li>
+                    <li><a class="dropdown-item" href="#ADM">ADM</a></li>
+                    <li><a class="dropdown-item" href="#MED">MEDICINA</a></li>
+                    <li><a class="dropdown-item" href="#AGR">AGRONOMIA</a></li>
+                    <li><a class="dropdown-item" href="#GEO">GEOGRAFIA</a></li>
+                    <li><a class="dropdown-item" href="#ENF">ENFERMAGEM</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="d-flex align-items-top mb-4" id="CC">
+            <img src="imagens ryan/cc.png" width="150px" height="150px" class="me-3" alt="cc">
+            <div style="max-width: 400px;">
+                <h3>Ciencias da Computação</h3>
+                <p>O curso de Ciência da Computação forma profissionais capacitados a desenvolver softwares, algoritmos,
+                    sistemas operacionais e soluções tecnológicas...</p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-top mb-4" id="ADM">
+            <img src="imagens ryan/adm.png" width="150px" height="150px" class="me-3" alt="adm">
+            <div style="max-width: 400px;">
+                <h3>Adm</h3>
+                <p>O curso de Administração prepara o aluno para gerenciar empresas e organizações, atuando em áreas
+                    como finanças, marketing, recursos humanos...</p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-top mb-4" id="MED">
+            <img src="imagens ryan/Medicina.png" width="150px" height="150px" class="me-3" alt="medicina">
+            <div style="max-width: 400px;">
+                <h3>Medicina</h3>
+                <p>O curso de Medicina forma médicos capacitados a diagnosticar, tratar e prevenir doenças...</p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-top mb-4" id="AGR">
+            <img src="imagens ryan/javardos.png" width="150px" height="150px" class="me-3" alt="agronomia">
+            <div style="max-width: 400px;">
+                <h3>Agronomia</h3>
+                <p>A Agronomia é o curso voltado à produção sustentável no campo. O aluno aprende sobre solo, plantas...</p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-top mb-4" id="GEO">
+            <img src="imagens ryan/tronados.png" width="150px" height="150px" class="me-3" alt="geografia">
+            <div style="max-width: 400px;">
+                <h3>Geografia</h3>
+                <p>O curso de Geografia estuda as relações entre o espaço geográfico, o meio ambiente e a sociedade...</p>
+            </div>
+        </div>
+
+        <div class="d-flex align-items-top mb-4" id="ENF">
+            <img src="imagens ryan/enfermagem.png" width="150px" height="150px" class="me-3" alt="enfermagem">
+            <div style="max-width: 400px;">
+                <h3>Enfermagem</h3>
+                <p>O curso de Enfermagem forma profissionais da saúde preparados para cuidar de pacientes em diversas
+                    fases da vida e condições clínicas...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
