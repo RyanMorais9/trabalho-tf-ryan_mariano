@@ -47,11 +47,11 @@ h1{
 .atletica{
   background-color: red;
   color: rgb(255, 255, 255);
-  padding: 0%;
+  padding: 0.5%;
   margin: 0 auto;
   border: 0%;
-  border-radius: 8px;
-  width: 50%;
+  border-radius: 3px;
+  width: 25%;
 }
 .bg-dark {
     --bs-bg-opacity: 0;
