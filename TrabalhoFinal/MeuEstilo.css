@@ -1,0 +1,85 @@
+
+@media (min-width: 992px) {
+    .custom-carousel {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;;
+}
+.px-3
+{
+    padding: 0.5%;
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff; 
+}
+
+.navbar .nav-link:hover {
+  color: #ffe600; 
+}
+
+.navbar .navbar-brand {
+  color: #FFFFFF; 
+}
+
+.imagem{
+    width: 2%;
+}
+
+.carousel {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 2%;
+}
+
+.atletica{
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 0%;
+  margin: 0 auto;
+  border: 0%;
+  border-radius: 8px;
+  width: 50%;
+}
+.bg-dark {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;}
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #ff0000;
+}
+.accordion {
+    --bs-accordion-color: #c70000;
+    --bs-accordion-bg: #491f1f00;
+    --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
+    --bs-accordion-border-color: var(--bs-border-color);
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+    --bs-accordion-btn-padding-x: 1.25rem;
+    --bs-accordion-btn-padding-y: 1rem;
+    --bs-accordion-btn-color: #ffffff;
+    --bs-accordion-btn-bg: var(--bs-accordion-bg);
+    --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-icon-width: 1.25rem;
+    --bs-accordion-btn-icon-transform: rotate(-180deg);
+    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+    --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0);
+    --bs-accordion-body-padding-x: 1.25rem;
+    --bs-accordion-body-padding-y: 1rem;
+    --bs-accordion-active-color: #ffffff;
+    --bs-accordion-active-bg: #000000;
+}
